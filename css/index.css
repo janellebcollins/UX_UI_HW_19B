@@ -1,0 +1,303 @@
+
+a {
+    text-decoration: none;
+    color: #8C3D71;
+}
+
+
+body {
+    padding: 0px 120px;
+    font-family: chubgothic, Verdana;
+    font-size: 20px;
+    letter-spacing: .1em;
+}
+
+button {
+    background-color: black;
+    color: #BEBBBB;
+}
+
+footer {
+    color: #8C3D71;
+    font-family: chubgothic;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
+
+header {
+    height: 100px;   
+}
+
+h1 {
+    font-family: bison;
+    font-size: 80px;
+    color: white;
+    margin-bottom:0;
+    padding:0;
+}
+
+h3 {
+    font-family: chubgothic;
+    font-size: 50px;
+    letter-spacing: .1em;
+    color: #FD4F1E;
+    margin:0;
+    padding:0;
+}
+
+
+
+nav {
+    padding: 1%;
+    height: 100;
+    display: flex;
+    flex-grow: 1;
+}
+
+li {
+    padding: 20px;
+}
+
+
+
+
+section {
+    padding: 80px;
+}
+
+
+
+ul {
+    margin-right: auto;
+    list-style-type: none;
+}
+
+
+.about-sections {
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+
+
+.flex-child button {
+    background-color: black;
+    color: #BEBBBB;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+    padding: 20px;
+} 
+
+.footerNavigation {
+    float: center;
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  
+
+  .grid-container-about {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-container-experience {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+  }
+
+  .grid-container-testimonials {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto auto;
+        padding: 10px;
+      }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+
+
+  .grid-item {
+    background-color: #C4C4C4;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-item-transparent {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+
+.headerNavigation {
+    float: right;
+    text-align: center;
+}
+
+.heroImg {
+    height: 30;
+    padding: 10%;
+    width: 200;
+    background-color: #BEBBBB;
+    text-align: center;
+    
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.logo {
+    width: 25%;
+    padding: 1%;
+    text-align: left;
+    float: left;
+    position: relative;
+}
+
+.myImage {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.navButtons {
+    width: 100%;
+    justify-self: start;
+    align-self: flex-start;
+}
+
+
+.p1 {
+    font-size: 14px;
+    font-family: chubgothic, sans-serif;
+    margin: 0;
+    padding:0;
+    text-align: left;
+}
+
+.p2 {
+    font-size: 24px;
+    font-family: chubgothic, sans-serif;
+    margin: 0;
+    padding:0;
+    text-align: left;
+}
+
+.p3 {
+    font-size: 20px;
+    font-family: bison;
+    margin-bottom: 5px;
+    padding:0;
+    text-align: left;
+}
+
+#portfolioLink :hover{ 
+color: #FD4F1E;
+letter-spacing: .1em;
+}
+
+
+/*PORTFOLIO LINK*/
+
+#content{
+  
+    margin:12px auto;
+    font:15px;
+    font-family: chubgothic, sans-serif;
+  }
+  .s_toggle{
+    cursor:pointer;
+    text-align:center;
+    padding:2px;
+    margin-top:10px;
+  }
+  .nascosto{
+    display:none;
+    padding:4px;
+    text-align:center;
+  }
+  div span{
+  font: 14px 'Trebuchet MS';
+    color:blue;
+  }
+
+
+
+
+@font-face {
+    font-family: chubgothic, sans-serif;
+    src: url(/chubgothic.ttf);  
+}
+@font-face {
+    font-family: bison;
+    src: url(/bison.ttf);
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .grid-item-transparent {
+        width: 100%;
+      }
+    }
